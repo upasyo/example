@@ -16,7 +16,7 @@ font-size:20px;
 <script>
 window.addEventListener('deviceorientation', function(event) {
 
-  $("#text").(event.alpha + ' : ' + event.beta + ' : ' + event.gamma);
+  document.getElementById("text").innerHTML=event.alpha + ' : ' + event.beta + ' : ' + event.gamma;
 });
 </script>
 <h1>This is a Heading</h1>
